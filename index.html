@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header>
+        <img id="logo" src="img/logoalura.png">
+    </header>
+    <main>
+        <section>
+
+            <img id="minusculas" src="img/Frame 1.png">
+
+            <div id="entrada">
+                <textarea id="encripto" placeholder="ingrese texto aqui"></textarea>
+            </div>
+            <div id="resultado">
+                <label for="resultado-texto"></label>
+                <textarea readonly style="resize: none;"  id="result"
+                    class="oculto"></textarea>
+                <img id="munheco" src="img/Muñeco.png">
+                <div id="contenedor-texto">
+                    <p id="mensaje">Ningún mensaje fue encontrado</p>
+                    <textarea placeholder="ingresa el texto que desees encriptar o desencriptar." id="Desencriptar" cols="30" rows="8"></textarea>
+
+                </div>
+                <button type="button" class="oculto" id="copyBoton">Copiar</button>
+            
+            </div>
+
+        </section>
+        <section>
+            <div id="botones">
+                <button type="button" id="boton-encriptar" >Encriptar</button>
+                <button type="button" id="boton-desencriptar" >Desencriptar</button>
+
+            </div>
+            
+            
+        </section>
+
+
+
+
+    </main>
+
+    <script src="js/encriptar.js"></script>
+    <script src="js/copiar.js"></script>
+
+
+
+</body>
+
+</html>
